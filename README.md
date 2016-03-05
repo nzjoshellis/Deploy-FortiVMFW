@@ -16,3 +16,8 @@ Fortigate-VM64-HV (port1)# set ip 10.1.1.254/24
 Fortigate-VM64-HV (port1)# set allowaccess ping http https  
 Fortigate-VM64-HV (port1)# set alias "LAN"  
 Fortigate-VM64-HV (port1)# end  
+Fortigate-VM64-HV# config system interface  
+Fortigate-VM64-HV (interface)# edit port2   
+Fortigate-VM64-HV (port2)# set mode dhcp  
+Fortigate-VM64-HV (port2)# set alias "WAN"  
+Fortigate-VM64-HV (port2)# end  
