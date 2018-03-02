@@ -13,8 +13,8 @@ Param(
 [string]$FWName
      )
 # Source Files
-$FortigateOSVHD = "E:\Microsoft Images\Fortinet Virtual Firewall\fortios.vhd"
-$FortigateDataVHD = "E:\Microsoft Images\Fortinet Virtual Firewall\DATADRIVE.vhd"
+$FortigateOSVHD = "E:\Fortinet Virtual Firewall\fortios.vhd"
+$FortigateDataVHD = "E:\Fortinet Virtual Firewall\DATADRIVE.vhd"
 
 # Hyper-V Files Location
 $HyperVDisks = 'C:\HyperV\Disks\'
